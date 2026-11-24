@@ -1,0 +1,270 @@
+:root {
+  --navy: #13233f;
+  --navy-2: #1d335c;
+  --red: #c1121f;
+  --amber: #e09b1a;
+  --blue: #1d4ed8;
+  --green: #0f7a4a;
+  --ink: #102037;
+  --muted: #5b6b82;
+  --bg: #eef2f6;
+  --card: #ffffff;
+  --safe-t: env(safe-area-inset-top, 0px);
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --header-h: calc(56px + var(--safe-t));
+}
+* { box-sizing: border-box; }
+html, body {
+  height: 100%;
+  margin: 0;
+  background: var(--navy);
+  color: var(--ink);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+}
+html { height: -webkit-fill-available; }
+#app {
+  height: 100%;
+  height: 100dvh;
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+header {
+  flex: 0 0 auto;
+  background: var(--navy);
+  color: #fff;
+  padding: calc(8px + var(--safe-t)) 10px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 2000;
+}
+header h1 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+header p {
+  margin: 1px 0 0;
+  font-size: 11px;
+  opacity: .8;
+}
+.grow { flex: 1; min-width: 0; }
+.icon-btn, .text-btn {
+  appearance: none;
+  border: 0;
+  color: #fff;
+  background: var(--navy-2);
+  min-height: 42px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 10px;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+.icon-btn { min-width: 42px; }
+.search-bar {
+  display: flex;
+  gap: 6px;
+  padding: 6px 10px;
+  background: var(--navy);
+}
+.search-bar input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  border-radius: 10px;
+  min-height: 42px;
+  padding: 0 12px;
+  font-size: 16px;
+  font-family: inherit;
+}
+.layers {
+  display: flex;
+  gap: 6px;
+  padding: 0 10px 8px;
+  background: var(--navy);
+  overflow-x: auto;
+}
+.chip {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 7px 11px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #dbe7ff;
+  background: #2a416c;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.chip.on { color: #13233f; }
+.chip.stations.on { background: #fecaca; }
+.chip.hospitals.on { background: #bfdbfe; }
+.chip.aeds.on { background: #bbf7d0; }
+#map-wrap {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+#map { height: 100%; width: 100%; background: #d7dee8; }
+.leaflet-control-attribution {
+  font-size: 10px;
+  max-width: 70vw;
+}
+#sheet {
+  flex: 0 0 auto;
+  background: var(--card);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 -6px 20px rgba(16, 32, 55, .18);
+  max-height: 46%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  z-index: 1500;
+}
+#sheet.expanded { max-height: 70%; }
+.sheet-handle {
+  width: 42px;
+  height: 4px;
+  border-radius: 4px;
+  background: #d0d7e2;
+  margin: 8px auto 0;
+}
+.sheet-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 12px 6px;
+}
+.sheet-head h2 { margin: 0; font-size: 15px; }
+.sheet-head p { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+#sheet-body {
+  overflow: auto;
+  padding: 0 12px calc(12px + var(--safe-b));
+  -webkit-overflow-scrolling: touch;
+}
+.group-title {
+  margin: 8px 0 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: .04em;
+}
+.card {
+  background: #f6f8fb;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 0 0 8px;
+}
+.card .name { font-weight: 700; font-size: 14px; }
+.card .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.card .actions { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.nav-btn {
+  appearance: none;
+  border: 0;
+  background: var(--navy);
+  color: #fff;
+  border-radius: 9px;
+  min-height: 38px;
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.nav-btn.alt { background: #334866; }
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  border-radius: 6px;
+  padding: 1px 6px;
+  margin-right: 4px;
+  font-weight: 700;
+}
+.badge.daya { background: #fee2e2; color: #991b1b; }
+.badge.severe { background: #dbeafe; color: #1e3a8a; }
+.badge.moderate { background: #e0e7ff; color: #3730a3; }
+.badge.general { background: #e5e7eb; color: #374151; }
+.badge.warn { background: #fef3c7; color: #92400e; }
+.hint { font-size: 13px; color: var(--muted); line-height: 1.55; }
+#toast {
+  position: absolute;
+  left: 50%;
+  top: 12px;
+  transform: translateX(-50%);
+  background: rgba(19, 35, 63, .92);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  z-index: 1600;
+  display: none;
+  max-width: 90%;
+}
+#toast.show { display: block; }
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 16, 28, .55);
+  z-index: 3000;
+  padding: calc(16px + var(--safe-t)) 12px calc(16px + var(--safe-b));
+  overflow: auto;
+}
+.modal.show { display: block; }
+.modal .box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.55;
+  font-size: 14px;
+}
+.modal h2 { margin: 0 0 8px; font-size: 18px; }
+.modal a { color: #1d4ed8; }
+.modal ul { padding-left: 1.2em; }
+.pin {
+  width: 22px;
+  height: 22px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.35);
+}
+.pin.daya {
+  width: 26px;
+  height: 26px;
+  background: var(--red);
+}
+.pin.station { background: #b91c1c; }
+.pin.hq { background: #7f1d1d; }
+.pin.als { background: #c2410c; }
+.pin.severe { background: #1d4ed8; }
+.pin.moderate { background: #2563eb; }
+.pin.general { background: #64748b; }
+.pin-wrap { position: relative; }
+.origin-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.origin-row button {
+  appearance: none;
+  border: 1px solid #c9d4e3;
+  background: #fff;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}
+.origin-row button.on { background: var(--navy); color: #fff; border-color: var(--navy); }
+
+#origin-row[hidden], #btn-daya-nav[hidden] { display: none !important; }

@@ -1,0 +1,719 @@
+{
+  "generated_at": "2026-11-24",
+  "timezone": "Asia/Taipei",
+  "source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（急救責任醫院1141229.CSV）。該檔沒有座標，本頁座標是 2026-11-24 以 Nominatim 依官方醫院名稱或地址查得，並檢查行政區與路名是否相符。能力分級以該檔為準。路名無法對上者不會標點。",
+  "source_urls": {
+    "opendata_dataset": "https://data.gov.tw/dataset/83756",
+    "opendata_csv": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=d254ce32-ef55-464b-92f4-9d0f9f8c14a1",
+    "mohw_regional_list": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html"
+  },
+  "retrieved_at": "2026-11-24",
+  "count": 23,
+  "with_coordinates": 21,
+  "by_level": {
+    "重度級": 8,
+    "中度級": 10,
+    "一般級": 5
+  },
+  "missing_coordinates": [
+    {
+      "id": "936050029",
+      "name": "光田醫療社團法人光田綜合醫院向上院區",
+      "address": "臺中市沙鹿區向上路七段127號",
+      "level_group": "重度級",
+      "missing_reason": "開放資料僅有地址、沒有座標；Nominatim 結果無法同時符合官方行政區與路名，故暫不標點，以免標到錯誤院區。"
+    },
+    {
+      "id": "1436020013",
+      "name": "東勢區農會附設農民醫院",
+      "address": "臺中市東勢區豐勢路297號",
+      "level_group": "一般級",
+      "missing_reason": "開放資料僅有地址、沒有座標；Nominatim 結果無法同時符合官方行政區與路名，故暫不標點，以免標到錯誤院區。"
+    }
+  ],
+  "items": [
+    {
+      "id": "617060018",
+      "name": "臺中榮民總醫院",
+      "zip": "407219",
+      "address": "臺中市西屯區臺灣大道四段1650號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "臺中榮民總醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.1845526,
+      "lng": 120.6047597,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "臺中榮民總醫院",
+      "coord_display_name": "臺中榮民總醫院, 1650, 臺灣大道四段, 福聯里, 西屯區, 臺中市, 407220, 臺灣",
+      "coord_osm": "way/361501946"
+    },
+    {
+      "id": "1317050017",
+      "name": "中國醫藥大學附設醫院",
+      "zip": "404327",
+      "address": "臺中市北區育德路2號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "中國醫藥大學附設醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.1540152,
+      "lng": 120.6833489,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "中國醫藥大學附設醫院",
+      "coord_display_name": "中國醫藥大學附設醫院, 2, 育德路, 中達里, 北區, 臺中市, 40447, 臺灣",
+      "coord_osm": "relation/9416721"
+    },
+    {
+      "id": "1317040011",
+      "name": "中山醫學大學附設醫院",
+      "zip": "402306",
+      "address": "臺中市南區建國北路一段110號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "中山醫學大學附設醫院",
+          "error": null,
+          "hit_count": 2
+        }
+      ],
+      "lat": 24.1215662,
+      "lng": 120.650135,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "中山醫學大學附設醫院",
+      "coord_display_name": "中山醫學大學附設醫院(大慶院區), 110, 建國北路一段, 樹德里, 南區, 楓樹脚, 臺中市, 402306, 臺灣",
+      "coord_osm": "way/260711122"
+    },
+    {
+      "id": "936060016",
+      "name": "童綜合醫療社團法人童綜合醫院",
+      "zip": "435403",
+      "address": "臺中市梧棲區臺灣大道八段699號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "童綜合醫療社團法人童綜合醫院",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "童綜合醫院",
+          "error": null,
+          "hit_count": 2
+        },
+        {
+          "query": "童綜合醫院梧棲院區",
+          "error": null,
+          "hit_count": 2
+        }
+      ],
+      "lat": 24.246978,
+      "lng": 120.5425936,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "童綜合醫院梧棲院區",
+      "coord_display_name": "童綜合醫院梧棲院區, 699, 臺灣大道八段, 大庄里, 梧棲區, 大莊, 臺中市, 43541, 臺灣",
+      "coord_osm": "way/259922124"
+    },
+    {
+      "id": "936050029",
+      "name": "光田醫療社團法人光田綜合醫院向上院區",
+      "zip": "433004",
+      "address": "臺中市沙鹿區向上路七段127號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "光田醫療社團法人光田綜合醫院向上院區",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "光田綜合醫院向上院區",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "光田醫院向上院區",
+          "error": null,
+          "hit_count": 1
+        },
+        {
+          "query": "光田綜合醫院 沙鹿",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "missing_reason": "開放資料僅有地址、沒有座標；Nominatim 結果無法同時符合官方行政區與路名，故暫不標點，以免標到錯誤院區。"
+    },
+    {
+      "id": "936050029",
+      "name": "光田醫療社團法人光田綜合醫院大甲院區",
+      "zip": "437021",
+      "address": "臺中市大甲區經國路321號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "光田醫療社團法人光田綜合醫院大甲院區",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "光田綜合醫院大甲院區",
+          "error": "<urlopen error _ssl.c:1012: The handshake operation timed out>",
+          "hit_count": 0
+        },
+        {
+          "query": "光田醫院大甲院區",
+          "error": null,
+          "hit_count": 3
+        },
+        {
+          "query": "光田綜合醫院 大甲",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "臺中市大甲區經國路321號",
+          "error": null,
+          "hit_count": 0
+        }
+      ],
+      "lat": 24.3475036,
+      "lng": 120.6169844,
+      "coord_source": "Nominatim 命中為「光田醫院(大甲院區)」公車站，位於官方地址同一條經國路、大甲區；這是接近院區的公開點位，不是醫院建物中心。 查詢日期 2026-11-24，來源 OpenStreetMap Nominatim。",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "光田醫院大甲院區",
+      "coord_display_name": "光田醫院(大甲院區), 經國路, 庄美里, 大甲區, 臺中市, 43761, 臺灣",
+      "coord_osm": "node/3709768550",
+      "coord_precision": "nearby_bus_stop"
+    },
+    {
+      "id": "1517061032",
+      "name": "澄清綜合醫院中港分院",
+      "zip": "407211",
+      "address": "臺中市西屯區臺灣大道四段966號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "澄清綜合醫院中港分院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.1829615,
+      "lng": 120.6170606,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "澄清綜合醫院中港分院",
+      "coord_display_name": "澄清綜合醫院中港分院, 966, 臺灣大道四段, 福林里, 西屯區, 臺中市, 407211, 臺灣",
+      "coord_osm": "relation/9478170"
+    },
+    {
+      "id": "1136090519",
+      "name": "佛教慈濟醫療財團法人台中慈濟醫院",
+      "zip": "427003",
+      "address": "臺中市潭子區豐興路一段66、88號",
+      "level": "重度級",
+      "level_group": "重度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "佛教慈濟醫療財團法人台中慈濟醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.1956288,
+      "lng": 120.7222672,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "佛教慈濟醫療財團法人台中慈濟醫院",
+      "coord_display_name": "臺中慈濟醫院, 88, 豐興路一段, 聚興里, 潭子區, 臺中市, 42743, 臺灣",
+      "coord_osm": "relation/13706602"
+    },
+    {
+      "id": "117030010",
+      "name": "衛生福利部臺中醫院",
+      "zip": "403301",
+      "address": "臺中市西區三民路一段199號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "衛生福利部臺中醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.1403319,
+      "lng": 120.6754501,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "衛生福利部臺中醫院",
+      "coord_display_name": "臺中醫院, 199, 三民路一段, 三民里, 西區, 臺中市, 403301, 臺灣",
+      "coord_osm": "way/271956490"
+    },
+    {
+      "id": "136010010",
+      "name": "衛生福利部豐原醫院",
+      "zip": "420210",
+      "address": "臺中市豐原區安康路100號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "衛生福利部豐原醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.2425992,
+      "lng": 120.7248843,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "衛生福利部豐原醫院",
+      "coord_display_name": "豐原醫院, 100, 安康路, 南陽里, 豐原區, 臺中市, 42055, 臺灣",
+      "coord_osm": "way/246401675"
+    },
+    {
+      "id": "536190011",
+      "name": "國軍臺中總醫院附設民眾診療服務處",
+      "zip": "411228",
+      "address": "臺中市太平區中山路二段348號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "國軍臺中總醫院附設民眾診療服務處",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "國軍臺中總醫院",
+          "error": null,
+          "hit_count": 5
+        }
+      ],
+      "lat": 24.1511427,
+      "lng": 120.73093,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "國軍臺中總醫院",
+      "coord_display_name": "國軍臺中總醫院, 348, 中山路二段, 光明里, 太平區, 臺中市, 411, 臺灣",
+      "coord_osm": "way/244578165"
+    },
+    {
+      "id": "1136200015",
+      "name": "仁愛醫療財團法人大里仁愛醫院",
+      "zip": "412224",
+      "address": "臺中市大里區東榮路483號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "仁愛醫療財團法人大里仁愛醫院",
+          "error": null,
+          "hit_count": 2
+        }
+      ],
+      "lat": 24.1091151,
+      "lng": 120.6805808,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "仁愛醫療財團法人大里仁愛醫院",
+      "coord_display_name": "大里仁愛醫院, 483, 東榮路, 東興里, 大里區, 田寮, 臺中市, 412224, 臺灣",
+      "coord_osm": "relation/14714155"
+    },
+    {
+      "id": "917070029",
+      "name": "林新醫療社團法人林新醫院",
+      "zip": "408346",
+      "address": "臺中市南屯區惠中路三段36號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "林新醫療社團法人林新醫院",
+          "error": null,
+          "hit_count": 2
+        }
+      ],
+      "lat": 24.1493161,
+      "lng": 120.6402307,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "林新醫療社團法人林新醫院",
+      "coord_display_name": "林新醫院, 36, 惠中路三段, 三和里, 南屯區, 田心, 臺中市, 408346, 臺灣",
+      "coord_osm": "way/1505903491"
+    },
+    {
+      "id": "1517011112",
+      "name": "澄清綜合醫院",
+      "zip": "400620",
+      "address": "臺中市中區平等街139號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "澄清綜合醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.1427587,
+      "lng": 120.6816554,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "澄清綜合醫院",
+      "coord_display_name": "澄清醫院平等院區, 139, 平等街, 光復里, 中區, 臺中市, 40045, 臺灣",
+      "coord_osm": "way/262848548"
+    },
+    {
+      "id": "936030018",
+      "name": "李綜合醫療社團法人大甲李綜合醫院",
+      "zip": "437007",
+      "address": "臺中市大甲區八德街2號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "李綜合醫療社團法人大甲李綜合醫院",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "大甲李綜合醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.3507286,
+      "lng": 120.6181943,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "大甲李綜合醫院",
+      "coord_display_name": "大甲李綜合醫院, 2, 八德街, 平安里, 大甲區, 臺中市, 43748, 臺灣",
+      "coord_osm": "way/332832428"
+    },
+    {
+      "id": "1303180011",
+      "name": "亞洲大學附屬醫院",
+      "zip": "413505",
+      "address": "臺中市霧峰區福新路222號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "亞洲大學附屬醫院",
+          "error": "<urlopen error _ssl.c:1012: The handshake operation timed out>",
+          "hit_count": 0
+        },
+        {
+          "query": "臺中市霧峰區福新路222號",
+          "error": null,
+          "hit_count": 0
+        }
+      ],
+      "lat": 24.0540899,
+      "lng": 120.6853533,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認行政區與路名與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "亞洲大學附屬醫院",
+      "coord_display_name": "亞洲大學附屬醫院, 222, 福新路, 南柳里, 霧峰區, 臺中市, 41354, 臺灣",
+      "coord_osm": "way/544940298"
+    },
+    {
+      "id": "1503190020",
+      "name": "長安醫院",
+      "zip": "411001",
+      "address": "臺中市太平區永平路一段9號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "長安醫院",
+          "error": null,
+          "hit_count": 3
+        }
+      ],
+      "lat": 24.1312016,
+      "lng": 120.7196382,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "長安醫院",
+      "coord_display_name": "長安醫院, 9, 永平路一段, 永平里, 太平區, 長億里, 臺中市, 411, 臺灣",
+      "coord_osm": "node/4229177810"
+    },
+    {
+      "id": "903150014",
+      "name": "林新醫療社團法人烏日林新醫院",
+      "zip": "414013",
+      "address": "臺中市烏日區榮和路168號",
+      "level": "中度級",
+      "level_group": "中度級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "林新醫療社團法人烏日林新醫院",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "烏日林新醫院",
+          "error": null,
+          "hit_count": 4
+        }
+      ],
+      "lat": 24.109682,
+      "lng": 120.5981298,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "烏日林新醫院",
+      "coord_display_name": "烏日林新醫院, 168, 榮和路, 榮泉里, 烏日區, 烏日高鐵特區, 臺中市, 414, 臺灣",
+      "coord_osm": "way/336079242"
+    },
+    {
+      "id": "1536100081",
+      "name": "清泉醫院",
+      "zip": "428433",
+      "address": "臺中市大雅區雅潭路四段80號",
+      "level": "一般級",
+      "level_group": "一般級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "清泉醫院",
+          "error": "<urlopen error _ssl.c:1012: The handshake operation timed out>",
+          "hit_count": 0
+        },
+        {
+          "query": "臺中市大雅區雅潭路四段80號",
+          "error": null,
+          "hit_count": 0
+        }
+      ],
+      "lat": 24.2169346,
+      "lng": 120.6664329,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認行政區與路名與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "清泉醫院",
+      "coord_display_name": "清泉醫院, 雅潭路四段, 三和里, 大雅區, 臺中市, 428005, 臺灣",
+      "coord_osm": "node/3961911873"
+    },
+    {
+      "id": "1436020013",
+      "name": "東勢區農會附設農民醫院",
+      "zip": "423003",
+      "address": "臺中市東勢區豐勢路297號",
+      "level": "一般級",
+      "level_group": "一般級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "東勢區農會附設農民醫院",
+          "error": null,
+          "hit_count": 2
+        }
+      ],
+      "missing_reason": "開放資料僅有地址、沒有座標；Nominatim 結果無法同時符合官方行政區與路名，故暫不標點，以免標到錯誤院區。"
+    },
+    {
+      "id": "517050010",
+      "name": "國軍臺中總醫院中清分院附設民眾診療服務處",
+      "zip": "404313",
+      "address": "臺中市北區忠明路500號",
+      "level": "一般級",
+      "level_group": "一般級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "國軍臺中總醫院中清分院附設民眾診療服務處",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "國軍臺中總醫院中清分院",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "國軍台中總醫院中清分院",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "臺中市北區忠明路500號",
+          "error": null,
+          "hit_count": 0
+        }
+      ],
+      "lat": 24.162792,
+      "lng": 120.6721052,
+      "coord_source": "Nominatim 命中為「八0三醫院中清分院」公車站（國軍醫院舊稱八〇三），位於官方地址同一條忠明路、北區；這是接近院區的公開點位，不是醫院建物中心。 查詢日期 2026-11-24，來源 OpenStreetMap Nominatim。",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "中清分院",
+      "coord_display_name": "八0三醫院中清分院, 忠明路, 健行里, 北區, 臺中市, 404, 臺灣",
+      "coord_osm": "node/3388979850",
+      "coord_precision": "nearby_bus_stop"
+    },
+    {
+      "id": "1536190076",
+      "name": "賢德醫院",
+      "zip": "411035",
+      "address": "臺中市太平區宜昌路420號",
+      "level": "一般級",
+      "level_group": "一般級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "賢德醫院",
+          "error": null,
+          "hit_count": 2
+        }
+      ],
+      "lat": 24.1452058,
+      "lng": 120.7143458,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "賢德醫院",
+      "coord_display_name": "賢德醫院, 420, 宜昌路, 宜昌里, 太平區, 臺中市, 411, 臺灣",
+      "coord_osm": "way/1382108397"
+    },
+    {
+      "id": "1303290012",
+      "name": "臺中市立老人復健綜合醫院(委託財團法人中國醫藥大學興建經營)",
+      "zip": "406004",
+      "address": "臺中市北屯區太原路三段1141號",
+      "level": "一般級",
+      "level_group": "一般級",
+      "address_source": "臺中市政府衛生局「臺中市急救責任醫院」開放資料（檔名：急救責任醫院1141229.CSV）",
+      "address_source_url": "https://data.gov.tw/dataset/83756",
+      "classification_source": "同上開放資料之「能力分級」欄；衛福部急救責任醫院分區名單可對照",
+      "classification_source_url": "https://www.mohw.gov.tw/dl-97025-23d029a4-14c2-4ae9-a057-7a32d3885839.html",
+      "geocode_attempts": [
+        {
+          "query": "臺中市立老人復健綜合醫院(委託財團法人中國醫藥大學興建經營)",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "中國醫藥大學興建經營)",
+          "error": null,
+          "hit_count": 0
+        },
+        {
+          "query": "臺中市立老人復健綜合醫院",
+          "error": null,
+          "hit_count": 1
+        }
+      ],
+      "lat": 24.163127,
+      "lng": 120.7229593,
+      "coord_source": "依衛生局開放資料之醫院名稱或地址，於 2026-11-24 以 OpenStreetMap Nominatim 查得，並確認落在臺中範圍且行政區與官方地址相符",
+      "coord_source_url": "https://nominatim.openstreetmap.org/",
+      "coord_match": "臺中市立老人復健綜合醫院",
+      "coord_display_name": "臺中市立老人復健綜合醫院, 1141, 太原路三段, 廍子里, 北屯區, 臺中市, 406, 臺灣",
+      "coord_osm": "relation/19663201"
+    }
+  ]
+}

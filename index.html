@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#13233f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>臺中救護資源地圖</title>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
+  <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="grow">
+        <h1>臺中救護資源地圖</h1>
+        <p id="counts">載入資料中…</p>
+      </div>
+      <button class="icon-btn" id="btn-info" type="button" aria-label="資料來源">說明</button>
+    </header>
+    <div class="search-bar">
+      <input id="q" type="search" placeholder="搜尋案件地址，例如：大雅區學府路80號" enterkeyhint="search" autocomplete="off">
+      <button class="text-btn" id="btn-search" type="button">搜尋</button>
+      <button class="text-btn" id="btn-me" type="button">我的位置</button>
+    </div>
+    <div class="layers" role="group" aria-label="圖層">
+      <button class="chip stations on" id="chip-stations" type="button">分隊</button>
+      <button class="chip hospitals on" id="chip-hospitals" type="button">醫院</button>
+      <button class="chip aeds on" id="chip-aeds" type="button">AED</button>
+    </div>
+    <div id="map-wrap">
+      <div id="map"></div>
+      <div id="toast"></div>
+    </div>
+    <section id="sheet">
+      <div class="sheet-handle" aria-hidden="true"></div>
+      <div class="sheet-head">
+        <div class="grow">
+          <h2 id="sheet-title">設定案件地點</h2>
+          <p id="sheet-sub">可搜尋地址、使用我的位置，或直接點地圖。</p>
+          <div class="origin-row" id="origin-row" hidden>
+            <span class="hint" style="align-self:center">導航起點</span>
+            <button type="button" data-origin="case" class="on">案件地點</button>
+            <button type="button" data-origin="me">我的位置</button>
+            <button type="button" data-origin="daya">大雅分隊</button>
+          </div>
+        </div>
+        <button class="text-btn" id="btn-daya-nav" type="button" hidden style="background:#9b1c1c">從大雅到案件</button>
+      </div>
+      <div id="sheet-body">
+        <p class="hint">距離皆為直線距離，不是行車時間或實際路程。按「用 Google 地圖導航」會開啟 Google 地圖開車路線。</p>
+      </div>
+    </section>
+  </div>
+  <div class="modal" id="info-modal" role="dialog" aria-labelledby="info-title">
+    <div class="box">
+      <h2 id="info-title">資料來源與限制</h2>
+      <div id="info-body"></div>
+      <p style="text-align:right;margin:12px 0 0">
+        <button class="nav-btn" id="btn-close-info" type="button">關閉</button>
+      </p>
+    </div>
+  </div>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
